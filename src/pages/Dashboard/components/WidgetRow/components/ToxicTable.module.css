@@ -1,0 +1,25 @@
+.custom_table {
+    border-collapse:separate;
+    border-spacing: 0 1em;
+}
+.custom_table th {
+    color: #8ca0b3;
+    border-bottom: none !important;
+    border-top: none;
+}
+
+.custom_table td {
+    border: none;
+    vertical-align: middle;
+    font-size: 1.1em;
+}
+
+.custom_table thead {
+    line-height: 60px;
+    font-size: 1.2em;
+    border: none;
+}
+
+.custom_table tbody tr:hover {
+    cursor: pointer;
+}

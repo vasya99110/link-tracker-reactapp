@@ -1,0 +1,19 @@
+.text_up:before {
+    color: #727cf5;
+    /*background-image: linear-gradient(to top, #fa5c7c 10%, #727cf5 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+}
+
+.text_down {
+    color: #e3eaef;
+}
+
+.index_table_icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    color: #ffffff;
+    line-height: 40px;
+
+}

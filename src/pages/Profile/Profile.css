@@ -1,0 +1,36 @@
+.blue-gradient {
+    background-image: linear-gradient(to right, #6fb3ff , #226dd1);
+    color: #fff;
+    border: 0;
+}
+.blue-gradient:hover{background-image: linear-gradient(to right, #5ba3f4 , #1264d1);}
+.invalid-field {
+  width: 100%;
+  margin-top: .25rem;
+  font-size: .75rem;
+  color: #fa5c7c;
+}
+.box-info {
+    border: 1px solid #d2d2d2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.apexcharts-datalabel, .apexcharts-datalabel-label, .apexcharts-datalabel-value, .apexcharts-pie-label {
+    fill: initial!important;
+    color: #000!important;
+}
+.react-formik-ui.themed .form-element .radio-wrapper .radio-options .radio-option input[type=radio]:checked+label:after, .react-formik-ui.themed .form-element .radio-wrapper .radio-options .radio-option input[type=radio]:not(:checked)+label:after{
+  top: 3px!important;
+  left: 3px!important;
+}
+.noUi-target.noUi-horizontal{margin-bottom: 70px;}
+#rankingbehavior .noUi-horizontal {
+    height: 8px;
+}
+#rankingbehavior .noUi-horizontal .noUi-handle{top: -11px;}
+#rankingbehavior .noUi-handle:after{left: 11px;}
+#rankingbehavior .noUi-handle:after {
+    left: 16px;
+}

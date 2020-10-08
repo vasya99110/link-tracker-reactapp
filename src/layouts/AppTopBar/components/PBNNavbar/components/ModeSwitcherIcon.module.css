@@ -1,0 +1,16 @@
+.moon::before {
+    content: "\1F31C";
+}
+
+.sun::before {
+    content: "\1F31E";
+}
+
+.toggle_icon {
+    align-items: center;
+    display: flex;
+    height: 10px;
+    justify-content: center;
+    position: relative;
+    width: 10px
+}
